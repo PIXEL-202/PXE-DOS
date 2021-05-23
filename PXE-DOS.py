@@ -65,7 +65,7 @@ def print_status():
     except:
       print("",end="")
     thread_num += 1
-    print (colored("\n " + time.ctime().split(" ")[3] + " " + "[" + str(thread_num) + "]" + " ip address  =  " + host +  " فلسطين_لن_تهود#","green"),end="\n\n")
+    print (colored("\n " + time.ctime().split(" ")[3] + " " + "[" + str(thread_num) + "]" + " < host " + host + " s> فلسطين_لن_تهود#","green"),end="\n\n")
 
     try:
      thread_num_mutex.release()
