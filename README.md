@@ -67,4 +67,4 @@ and secount for port numper (default 80 )  and third for count syn messages (def
 
 # Explanatory video
 
-![x](xx.gif)
+![x](video.gif)
