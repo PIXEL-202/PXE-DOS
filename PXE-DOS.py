@@ -6,8 +6,16 @@ import sys
 import threading
 import time
 import sys
-from pyfiglet import Figlet
-from termcolor import colored
+try:
+ from pyfiglet import Figlet
+except:
+    os.system("pip3 install pyfiglet")
+    from pyfiglet import Figlet
+try:
+ from termcolor import colored
+except:
+    os.system("pip3 install termcolor ")
+    from termcolor import colored
 xx = sys.version[:3]
 x = ["3.8","3.7","3.9"]
 if xx in x :
