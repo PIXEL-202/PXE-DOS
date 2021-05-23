@@ -31,6 +31,7 @@ per second
 first you must install some modules (pyfiglet,termcoloer) 
 
 If you haven't installed pip , install it for cont 
+
 $$ apt update
 
 $$ apt isntall python3-pip
@@ -47,7 +48,7 @@ next ;
 
         $$ cd PXE-DOS
 
-       $$ python3 PXE-DOS.py 
+        $$ python3 PXE-DOS.py 
 
 now you are install the script 
 
