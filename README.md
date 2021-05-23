@@ -61,20 +61,5 @@ now you are install the script
  
  The number of requests = count of syn messages (default 100000000)
  
- if you run : 
- 
-                  python3 PXE-DOS goole.com 
-                  
-   the tool Will continue by default port 80 
-   and the default count of syn messages 10000000
-if you run: 
-                 python3 PXE-DOS.PY google.com 443
-                 
-                 the tool Will continue with prot 443
-                 and the default count of syn messages 100000000
-if you run : 
-                 python3 PXE-DOS.py google.com 443 5
-                 
-                 the tool Will continue with port 443
-                 with  5 syn messages 
-                 
+the tool take first argv for website
+and secount for port numper (default 80 )  and third for count syn messages (default 100000000) 
