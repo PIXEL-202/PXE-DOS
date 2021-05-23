@@ -44,17 +44,17 @@ $$ pip3 install pyfiglet
 
 next ; 
 
-        $$ git clone https://www.github.com/PIXEL-202/PXE-DOS.git
+  $$ git clone https://www.github.com/PIXEL-202/PXE-DOS.git
 
-        $$ cd PXE-DOS
+  $$ cd PXE-DOS
 
-        $$ python3 PXE-DOS.py 
+  $$ python3 PXE-DOS.py 
 
 now you are install the script 
 
 # using
 
-          python3 PXE-DOS.py {target} {port} {The number of requests}
+   python3 PXE-DOS.py {target} {port} {The number of requests}
  
  tagert = ip addrss or hostname or website 
  
