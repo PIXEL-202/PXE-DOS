@@ -43,17 +43,17 @@ $$ pip3 install pyfiglet
 
 next ; 
 
-$$ git clone https://www.github.com/PIXEL-202/PXE-DOS.git
+        $$ git clone https://www.github.com/PIXEL-202/PXE-DOS.git
 
-$$ cd PXE-DOS
+        $$ cd PXE-DOS
 
-$$ python3 PXE-DOS.py 
+       $$ python3 PXE-DOS.py 
 
 now you are install the script 
 
 # using
 
- python3 PXE-DOS.py {target} {port} {The number of requests}
+          python3 PXE-DOS.py {target} {port} {The number of requests}
  
  tagert = ip addrss or hostname or website 
  
@@ -62,10 +62,11 @@ now you are install the script
  The number of requests = count of syn messages (default 100000000)
  
  if you run : 
+ 
                   python3 PXE-DOS goole.com 
                   
-                  the tool Will continue by default port 80 
-                  and the default count of syn messages 10000000
+   the tool Will continue by default port 80 
+   and the default count of syn messages 10000000
 if you run: 
                  python3 PXE-DOS.PY google.com 443
                  
