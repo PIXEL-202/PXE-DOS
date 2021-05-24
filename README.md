@@ -28,27 +28,23 @@ per second
 
 # Setup 
 
-first you must install some modules (pyfiglet,termcoloer) 
-
 If you haven't installed pip , install it for cont 
 
-$$ apt update
+$$ sudo apt update
 
-$$ apt isntall python3-pip
+$$ sudo apt isntall python3-pip
 
 isntalling the modules 
 
-$$ pip3 install termcolor
-
-$$ pip3 install pyfiglet 
+$$ sudo pip3 install -r requirements.txt
 
 next ; 
 
-  $$ git clone https://www.github.com/PIXEL-202/PXE-DOS.git
+  $$ sudo git clone https://www.github.com/PIXEL-202/PXE-DOS.git
 
   $$ cd PXE-DOS
 
-  $$ python3 PXE-DOS.py 
+  $$ sudo python3 PXE-DOS.py 
 
 now you are install the script 
 
